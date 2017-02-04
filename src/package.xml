@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <package>
-  <name>robot2017</name>
+  <name>teleop_msg</name>
   <version>0.0.0</version>
-  <description>The robot2017 package</description>
+  <description>The teleop_msg package</description>
 
   <!-- One maintainer tag required, multiple allowed, one person per tag --> 
   <maintainer email="mcconner@vt.edu">mconnerVT</maintainer>
