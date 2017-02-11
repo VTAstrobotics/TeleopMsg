@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(teleop_msg)
+project(robot_msgs)
 
 find_package(catkin REQUIRED COMPONENTS
   roscpp
@@ -9,7 +9,7 @@ find_package(catkin REQUIRED COMPONENTS
 
 add_message_files(
   DIRECTORY msg
-  FILES Teleop.msg
+  FILES Autonomy.msg Teleop.msg Watchdog.msg
 )
 
 generate_messages(DEPENDENCIES 
