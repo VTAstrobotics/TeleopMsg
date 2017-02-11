@@ -9,7 +9,7 @@ find_package(catkin REQUIRED COMPONENTS
 
 add_message_files(
   DIRECTORY msg
-  FILES Autonomy.msg Teleop.msg Watchdog.msg
+  FILES Teleop.msg
 )
 
 generate_messages(DEPENDENCIES 
