@@ -4,7 +4,7 @@
 bool ping
 
 #motor commands sent if robot is operating autonomously
-float leftRatio
-float rightRatio
-float digCmd
-float dumpCmd
+float64 leftRatio
+float64 rightRatio
+float64 digCmd
+float64 dumpCmd
