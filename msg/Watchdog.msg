@@ -1,3 +1,13 @@
 #Control data
-#most of this is todo, not entirely sure what data will be sent
-float battery_status
+float32 batVoltage
+float32 stateOfCharge
+float32 cell1Temp
+float32 cell2Temp
+float32 dcConverterTemp
+float32 current
+float32 cpuTemp
+float32 ssrTemp
+float32 boxTemp
+float32 vcc
+int32 timeFromLastStop
+float32 totalKWH
