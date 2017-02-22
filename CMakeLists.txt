@@ -13,6 +13,7 @@ add_message_files(
   Teleop.msg
   Autonomy.msg
   Watchdog.msg
+  Atest.msg
 )
 
 generate_messages(DEPENDENCIES 
