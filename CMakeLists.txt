@@ -14,6 +14,7 @@ add_message_files(
   Autonomy.msg
   Watchdog.msg
   Atest.msg
+  MotorFeedback.msg
 )
 
 generate_messages(DEPENDENCIES 
