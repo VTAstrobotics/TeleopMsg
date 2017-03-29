@@ -4,6 +4,7 @@ project(robot_msgs)
 find_package(catkin REQUIRED COMPONENTS
   roscpp
   std_msgs
+  geometry_msgs
   message_generation
 )
 
@@ -15,10 +16,12 @@ add_message_files(
   Watchdog.msg
   Atest.msg
   MotorFeedback.msg
+  PointArray.msg
 )
 
 generate_messages(DEPENDENCIES 
   std_msgs
+  geometry_msgs
 )
 
 catkin_package(
