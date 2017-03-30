@@ -14,7 +14,6 @@ add_message_files(
   Teleop.msg
   Autonomy.msg
   Watchdog.msg
-  Atest.msg
   MotorFeedback.msg
   PointArray.msg
 )
