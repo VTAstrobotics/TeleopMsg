@@ -16,6 +16,7 @@ add_message_files(
   Watchdog.msg
   MotorFeedback.msg
   PointArray.msg
+  Ping.msg
 )
 
 generate_messages(DEPENDENCIES 
