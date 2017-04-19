@@ -1,0 +1,3 @@
+bool robotCodeActive
+bool autonomyActive
+bool deadmanPressed
