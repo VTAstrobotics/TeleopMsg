@@ -6,6 +6,8 @@
 #motor commands sent if robot is operating autonomously
 float64 leftRatio
 float64 rightRatio
-float64 storageRatio
-float64 liftRatio
+bool storageUp
+bool storageDown
+bool liftUp
+bool liftDown
 float64 drumRatio
