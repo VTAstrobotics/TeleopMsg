@@ -10,4 +10,5 @@ bool storageUp
 bool storageDown
 bool liftUp
 bool liftDown
+int32 liftSpeed # in RPM
 float64 drumRatio
