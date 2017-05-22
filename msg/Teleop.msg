@@ -10,10 +10,14 @@ bool start
 bool l_thumb
 bool r_thumb
 
+#dpad buttons 
+int8 dp_x
+int8 dp_y
+
 #controller axes
-int8 x_l_thumb
-int8 y_l_thumb
-int8 x_r_thumb
-int8 y_r_thumb
-int8 l_trig
-int8 r_trig
+float32 x_l_thumb
+float32 y_l_thumb
+float32 x_r_thumb
+float32 y_r_thumb
+float32 l_trig
+float32 r_trig

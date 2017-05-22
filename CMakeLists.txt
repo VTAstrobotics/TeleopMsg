@@ -17,6 +17,7 @@ add_message_files(
   MotorFeedback.msg
   PointArray.msg
   Ping.msg
+  Status.msg
 )
 
 generate_messages(DEPENDENCIES 
