@@ -1,22 +1,24 @@
-#Feedback data used by autonomy routing
-#RPM of drum 
+# Feedback data used by autonomy routing
+# Drum
 float32 drumRPM
-#position of lift (WIP - not sure how this will be implemented)
-float32 liftPos
-float32 liftRPM
+float32 drumCurrent
 
-#robot speed - not sure if these will be usede
+# Lift
+bool liftDownLimit
+bool liftUpLimit
+float32 liftPos # 0(up) - 180(down)
+float32 liftRPM
+float32 liftCurrent
+
+# Robot speed
 float32 leftTreadRPM
 float32 rightTreadRPM
 
-#additional info to be displayed in app
-float32 liftCurrent
-float32 drumCurrent
+# Storage
+bool storageDownLimit
+bool storageUpLimit
 
-#WIP
-float32 leftStorageWeight
-float32 rightStorageWeight
-float32 storagePos
+# Controller faults
 string rightTreadFault
 string leftTreadFault
 string drumFault
