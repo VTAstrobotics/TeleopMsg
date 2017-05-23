@@ -18,6 +18,9 @@ float32 rightTreadRPM
 bool storageDownLimit
 bool storageUpLimit
 
+# Battery voltage
+float32 batVoltage
+
 # Controller faults
 string rightTreadFault
 string leftTreadFault
