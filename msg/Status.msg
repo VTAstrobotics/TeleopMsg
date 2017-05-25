@@ -1,3 +1,4 @@
 bool robotCodeActive
 bool autonomyActive
 bool deadmanPressed
+bool limitsOverride
