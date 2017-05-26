@@ -12,7 +12,9 @@ float32 liftCurrent
 
 # Robot speed
 float32 leftTreadRPM
+float32 leftTreadCurrent
 float32 rightTreadRPM
+float32 rightTreadCurrent
 
 # Storage
 bool storageDownLimit
