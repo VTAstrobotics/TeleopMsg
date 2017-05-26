@@ -17,6 +17,7 @@ float32 rightTreadRPM
 # Storage
 bool storageDownLimit
 bool storageUpLimit
+float32 storageCurrent
 
 # Battery voltage
 float32 batVoltage
